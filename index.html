@@ -1,12 +1,23 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI Voice</title>
-</head>
-<body>
-    <button class="speak" onclick="recognition.start()">Speak</button>
-    <h3 class="content"></h3>
-</body>
-<script src="index.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <video width="820" height="640" autoplay loop>
+        <source
+          src="https://cdn.dribbble.com/users/1976233/screenshots/10904380/media/df6828c44c25859caca5b56db039f3d5.mp4"
+          type="video/mp4"
+        />
+
+        Your browser does not support the video tag.
+      </video>
+      <h3 class="content">What can i help you with?</h3>
+      <button class="speak" onclick="recognition.start()">Speak</button>
+    </div>
+  </body>
+  <script src="index.js"></script>
 </html>
